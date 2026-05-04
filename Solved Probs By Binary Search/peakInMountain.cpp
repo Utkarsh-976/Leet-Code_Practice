@@ -18,7 +18,8 @@ public:
 	}
 	return s;
     }
-    int peakIndexInMountainArray(vector<int>& arr) {
+    int peakIndexInMountainArray(vector<int>& arr)
+	{
         return find_pivot(arr);
     }
 };
