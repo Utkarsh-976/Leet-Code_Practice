@@ -14,7 +14,6 @@ public:
             n = n/10;
 
         }
-
         int answer = product - sum;
 
         return answer;
